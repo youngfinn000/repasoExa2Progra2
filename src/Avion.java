@@ -1,4 +1,4 @@
-public abstract class Avion {
+public abstract class Avion implements FuncionesAvion {
     private String nombreModelo;
     private String marca;
     private int capacidadCombustible;
@@ -54,5 +54,34 @@ public abstract class Avion {
 
     public void setCantidadAsientos(int cantidadAsientos) {
         this.cantidadAsientos = cantidadAsientos;
+    }
+
+    @Override
+    public String toString() {
+        return
+                "nombreModelo='" + nombreModelo + '\'' +
+                ", marca='" + marca + '\'' +
+                ", capacidadCombustible=" + capacidadCombustible +
+                ", tipoMotor='" + tipoMotor + '\'' +
+                ", cantidadAsientos=" + cantidadAsientos +
+                '}';
+    }
+
+    ///metodos
+
+
+    @Override
+    public String despegar() {
+        return null;
+    }
+
+    @Override
+    public String aterrizar() {
+        return null;
+    }
+
+    @Override
+    public String volar() {
+        return null;
     }
 }

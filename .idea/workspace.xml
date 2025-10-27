@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df5aca6c-4160-4eb2-a70f-98254f14e1db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aeropuerto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Avion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodigoInternacional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FormatoIncorrectoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OperacionesLectoEscritura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AvionCarga.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AvionComercial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AvionMilitar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AvionPrivado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FuncionesAvion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProductosTransportables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SistemaArmas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aeropuerto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aeropuerto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Avion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Avion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +24,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
